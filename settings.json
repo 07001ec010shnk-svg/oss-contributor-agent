@@ -1,0 +1,30 @@
+{
+  "languages": [
+    "Python",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "min_stars": 50,
+  "repos_per_scan": 45,
+  "min_repo_score": 30,
+  "issues_per_repo": 8,
+  "max_parallel_ai": 3,
+  "max_changed_files": 5,
+  "max_change_characters": 30000,
+  "test_commands": {
+    "Python": [
+      "python",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "JavaScript": [
+      "npm",
+      "test",
+      "--",
+      "--runInBand"
+    ]
+  },
+  "max_prs_per_day": 1,
+  "goal_merged_prs": 100
+}
